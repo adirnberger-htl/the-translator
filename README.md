@@ -14,19 +14,11 @@
 
 ## 3. Example Flow
 1. User types:  
-   `/translate text: "Guten Morgen!"`
+   `/translate text: "Guten Morgen! lang: EN"`
 2. Bot responds (ephemeral):  
    `Translation: "Good morning!"`
 
-## 4. Future Extensions
-- Detect source language automatically.
-- Support target languages besides English.
-- Add context menu command ("Translate message").
-- Allow translation of replied messages.
-
 ## 5. Required Libraries / APIs
 - `discord.js` v14+
-- Translation API (choose one):
-  - `@vitalets/google-translate-api`
+- Translation API:
   - `deepl-node`
-  - `libretranslate` (self-hosted option)
